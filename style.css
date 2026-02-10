@@ -1,0 +1,189 @@
+/* Stile Generale */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Header con immagine di sfondo */
+header {
+    background: linear-gradient(rgba(45, 90, 39, 0.8), rgba(45, 90, 39, 0.8)),
+        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: #3498db 5px solid;
+}
+
+.intro {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Sezione KPI */
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.kpi-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    border-bottom: 4px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+}
+
+.kpi-card .icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.kpi-card h3 {
+    color: #2d5a27;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.kpi-card .stat {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* STILE INFOGRAFICA (Aggiunto per correggere gli errori dell'immagine) */
+.infografica-esg {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 40px 0;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eee;
+}
+
+.info-header h2 {
+    color: #2d5a27;
+    margin-top: 0;
+}
+
+.sdg-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.sdg-box {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: left;
+}
+
+.water {
+    background-color: #26bde2;
+}
+
+/* Colore SDG 6 */
+.production {
+    background-color: #bf8b2e;
+}
+
+/* Colore SDG 12 */
+
+.sdg-number {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.sdg-content h4 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.sdg-content p {
+    margin: 5px 0 0;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.filiera-badge {
+    background: #eef5ee;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    color: #2d5a27;
+    border: 1px solid #2d5a27;
+}
+
+/* Sezione Report e Bottone Download */
+.reports {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.report-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    border-top: 5px solid #2d5a27;
+}
+
+.btn-download {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-download:hover {
+    background: #2d5a27;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+}
